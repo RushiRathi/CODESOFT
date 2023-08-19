@@ -1,0 +1,108 @@
+
+
+body {
+  font-family: calibri;
+  line-height: 1.5;
+}
+
+
+header {
+  background-color: #279cac;
+  color: #000000;
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav {
+  background: linear-gradient(to right,rgb(80, 93, 108),rgb(35, 64, 97));
+  display: -webkit-flex;
+  justify-content: center;
+  padding:0.8rem;
+}
+
+nav a {
+  color: #0a0909;
+  padding: 0.5rem 1rem;
+    }
+  
+
+
+.main-section {
+  background-image: url("RUSHI.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: grid;
+  text-align: center;
+  justify-content:bottom;
+  color: #013c5ef6;
+  font-size: 2rem;
+  font-variant-position: normal;
+  opacity: 56%;
+  padding-top: 10rem;
+}
+
+
+
+
+.features {
+  padding: 2rem;
+  text-align: start;
+}
+
+.feature-item {
+  margin-bottom: 1.5rem;
+}
+
+
+.cta-section {
+  background: linear-gradient(to right,rgb(159, 100, 102),rgb(92, 180, 196));
+  text-align: center;
+  padding: 3rem;
+}
+
+.cta-button {
+  background-color: #333;
+  color: #0b0b0b;
+  border: none;
+  padding: 1rem ;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+
+
+.centerdiv{
+  background-color: rgb(68, 85, 102);
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  margin: 1px;
+  
+}
+
+a i{
+  transition: all 0.5 linear;
+}
+
+a:hover i{
+  transform: scale(1.4);
+}
+
+.centerdiv i{
+  color: rgb(24, 25, 25);
+  padding: 0.5rem 1rem;
+}
+  
+footer {
+
+  background-color: #333;
+  color:#0b0b0b;
+  text-align: center;
+  padding: 1rem;
+}
